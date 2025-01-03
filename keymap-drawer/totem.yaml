@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RIGHT COMMAND}
   - L
   - ;
-  - Q
+  - TAB
   - Z
   - X
   - C
@@ -32,9 +32,9 @@ layers:
   - ','
   - .
   - /
-  - /
-  - DANGER
+  - '&apostrophe'
   - NUMS
+  - BACKSPACE
   - ENTER
   - SPACE
   - T
@@ -72,8 +72,8 @@ layers:
   - '|'
   - \
   - '6'
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -111,12 +111,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
 combos:
 - p: [27, 28]
   k: ESCAPE
@@ -139,4 +139,4 @@ combos:
 - p: [14, 15]
   k: ESCAPE
 - p: [12, 14]
-  k: ''
+  k: Gui+SPACE
