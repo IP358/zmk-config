@@ -37,7 +37,7 @@ layers:
   - NUMS
   - ENTER
   - SPACE
-  - BACKSPACE
+  - T
   - DANGER
   NUMS:
   - '!'
