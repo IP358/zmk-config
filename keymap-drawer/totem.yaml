@@ -1,122 +1,122 @@
-layout: {qmk_keyboard: totem}
+layout: {zmk_keyboard: totem}
 layers:
-  BASE:
-  - Q
-  - W
-  - E
-  - R
-  - T
+  Vicon_left:
+  - Meh+Q
+  - Meh+W
+  - Meh+E
+  - Meh+R
+  - Meh+T
   - Y
   - U
   - I
   - O
   - P
-  - {t: A, h: LEFT CONTROL}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT COMMAND}
-  - {t: F, h: LEFT SHIFT}
-  - G
+  - Meh+A
+  - Meh+S
+  - Meh+D
+  - Meh+F
+  - Meh+G
   - H
-  - {t: J, h: LEFT SHIFT}
-  - {t: K, h: RIGHT COMMAND}
+  - ''
+  - ''
   - L
   - ;
-  - TAB
-  - Z
-  - X
-  - C
-  - V
-  - B
+  - '&label_fill_toggle'
+  - Meh+Z
+  - Meh+X
+  - Meh+C
+  - Meh+V
+  - ESCAPE
   - N
   - M
   - ','
   - .
   - /
-  - '&apostrophe'
-  - NUMS
-  - BACKSPACE
-  - ENTER
+  - ''
+  - {t: Vicon_gap_fill, h: toggle}
+  - SPACE
+  - Vicon_right
   - SPACE
   - T
-  - DANGER
-  NUMS:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '-'
-  - '='
-  - '`'
-  - '['
-  - ']'
-  - '6'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - _
-  - +
-  - '~'
-  - '|'
-  - \
-  - '6'
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  DANGER:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - BT CLR
-  - {t: ▽, type: trans}
-  - MUTE
-  - PREVIOUS
-  - NEXT
-  - PLAY PAUSE
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
+  - Vicon_right
+  Vicon_right:
+  - Meh+Y
+  - Meh+U
+  - Meh+I
+  - Meh+O
+  - Meh+P
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - VOLUME DOWN
-  - VOLUME UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
+  - Meh+H
+  - Meh+J
+  - Meh+K
+  - Meh+L
+  - Meh+;
+  - KP 1
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - Meh+B
+  - Meh+N
+  - Meh+M
+  - Meh+,
+  - ESCAPE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - ''
+  - ''
+  - ''
+  Vicon_gap_fill:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Meh+KP 1
+  - Meh+KP 2
+  - Meh+KP 3
+  - Meh+KP 4
+  - Meh+KP 9
+  - KP 2
+  - ''
+  - ''
+  - ''
+  - ''
+  - CAPSLOCK
+  - Meh+KP 5
+  - Meh+KP 6
+  - Meh+KP 7
+  - Meh+KP 8
+  - ESCAPE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Vicon_left, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
 combos:
 - p: [27, 28]
   k: ESCAPE
