@@ -21,21 +21,21 @@ layers:
   - ''
   - L
   - ;
-  - '&label_fill_toggle'
+  - Hyper+Z
   - Meh+Z
   - Meh+X
   - Meh+C
   - Meh+V
-  - ESCAPE
+  - Hyper+V
   - N
   - M
   - ','
   - .
   - /
   - ''
-  - {t: Vicon_gap_fill, h: toggle}
-  - SPACE
-  - Vicon_right
+  - Hyper+E
+  - Hyper+R
+  - {t: Vicon_gap_fill, h: Vicon_right}
   - SPACE
   - T
   - Vicon_right
@@ -60,20 +60,20 @@ layers:
   - ''
   - ''
   - ''
-  - {t: BT, h: '0'}
+  - Hyper+W
   - Meh+B
   - Meh+N
   - Meh+M
   - Meh+,
-  - ESCAPE
+  - Hyper+Q
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Hyper+T
+  - Hyper+Y
   - {type: held}
   - ''
   - ''
@@ -89,21 +89,21 @@ layers:
   - ''
   - ''
   - ''
-  - Meh+KP 1
-  - Meh+KP 2
-  - Meh+KP 3
-  - Meh+KP 4
-  - Meh+KP 9
+  - Meh+1
+  - Meh+2
+  - Meh+3
+  - Meh+4
+  - Meh+5
   - KP 2
   - ''
   - ''
   - ''
   - ''
-  - CAPSLOCK
-  - Meh+KP 5
-  - Meh+KP 6
-  - Meh+KP 7
-  - Meh+KP 8
+  - Hyper+U
+  - Meh+6
+  - Meh+7
+  - Meh+8
+  - Meh+9
   - ESCAPE
   - ''
   - ''
