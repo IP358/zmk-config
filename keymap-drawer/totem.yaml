@@ -9,8 +9,8 @@ layers:
   - Y
   - U
   - I
-  - O
-  - P
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
   - Meh+A
   - Meh+S
   - Meh+D
@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - /
-  - ''
+  - BT CLR ALL
   - Hyper+E
   - Hyper+R
   - {t: Vicon_gap_fill, h: Vicon_right}
